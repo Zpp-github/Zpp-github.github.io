@@ -90,8 +90,11 @@ li {
 }
 
 .item1 {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    justify-content: space-around;
     margin-top: 150px;
-    margin-left: 780px;
     font-size: 1.5em;
 }
 
