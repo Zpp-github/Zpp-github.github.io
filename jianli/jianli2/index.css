@@ -62,13 +62,17 @@ li {
 }
 
 .tab {
-    text-align: center;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .tab ul li {
     display: inline-block;
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
     border: 1px solid rgba(48, 73, 11, .3);
     border-radius: 10px;
     cursor: pointer;
